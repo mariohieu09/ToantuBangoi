@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let login = prompt("Enter username");
+  switch((login === 'employee')? 1 : (login === 'director') ? 2 : (login === '') ? 3 : 0){
+    case 1:
+      document.write('Hello');
+      break;
+    case 2:
+      document.write('Greetings');
+      break;
+    case 3:
+      document.write('No login');
+      break;
+    default:
+      document.write('');
+      break;
+
+  }
+</script>
+</body>
+</html>
